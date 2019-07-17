@@ -1,0 +1,199 @@
+{
+  "global": {
+
+    "topHeroBanner": {
+      "title": "Découvrez la Télé Élan.",
+      "subtitle": "Vous vous intéressez à notre service de Télé IP Télé Élan<sub>MC</sub>? Voici tout ce que vous devez savoir.",
+      "description": "Recherche tout-en-un. Télécommande vocale dernier cri. Contenu personnalisé propulsé par notre service Internet le plus rapide, ce qui signifie que vous pouvez regarder la télé en ligne. Applications intégrées comme Netflix et YouTube. Regardez cette vidéo pour apprendre à connaître la Télé Élan et son fonctionnement.",
+      "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+    },
+
+    "iptv3Columns": {
+      "title": "La télé IP (télévision sur protocole Internet) est offerte entièrement sur Internet, plutôt que sur les réseaux numériques ou par satellite classiques. Ce qui signifie :",
+      "content": [
+        {
+          "title": "Un visionnement fluide sur plusieurs appareils, même en déplacement.",
+          "description": "Commencez à regarder un film sur votre téléviseur et terminez le visionnement sur votre tablette. Regardez la télé en direct en déplacement. Utilisez l’EVP en nuage et Téléchargez et partez pour accéder à vos enregistrements où que vous soyez.",
+          "image": "/assets/images/ignite-column-1.png",
+          "imageAlt": "Un visionnement fluide sur plusieurs appareils."
+        },
+        {
+          "title": "Une souplesse et un contrôle optimaux de votre téléviseur.",
+          "description": "Faites avancer, reculer et rejouer les émissions en direct. Personnalisez votre gamme de chaînes quand ça vous plaît.",
+          "image": "/assets/images/ignite-column-2.png",
+          "imageAlt": "Une souplesse et un contrôle optimaux."
+        },
+        {
+          "title": "De multiples sources de contenu à portée de main, de la télé en direct à Netflix.",
+          "description": "Cherchez un film, un genre ou un acteur et parcourez les résultats tirés de la télé en direct, de Netflix, du contenu sur demande, de vos enregistrements et plus encore.",
+          "image": "/assets/images/ignite-column-3.png",
+          "imageAlt": "Multiples sources de contenu."
+        }
+      ]
+    },
+
+    "compareIgnite": {
+      "title": "Quelles sont les différences?",
+      "subtitle": "Comparez notre Télé Élan et nos forfaits télé numériques standard.",
+      "columns": ["Caractéristiques", "Télé Élan", "Télé numérique", "Les concurrents"],
+      "rows": ["Service Élan Internet inclus", "Recherche tout-en-un", "Télécommande vocale", "Liste de chaînes personnalisable", "Application Télé Élan et Téléchargez et partez", "Appli sports", "Zone enfants", "EVP 4K en nuage", "Rejouer Terminal", "Télé Élan sans fil"],
+      "redRow": "1100000000",
+      "checkmarks": [ "1111111111", "0001110111", "0111001110" ],
+      "footnoteTitle": "Ignite exclusif : ",
+      "footnote": "ces services ne sont pas disponibles chez un autre fournisseur",
+      "yes": "oui",
+      "no": "non",
+      "analytics": ["modal - included ignite Internet Service", "modal - all in one search", "modal - voice remote", "modal - customizable channel lineup", "modal - ignite tv app and download and go", "modal-sports app", "modal - kids zone", "modal - 4k cloud pvr", "modal - restart", "modal - wireless ignite tv box"]
+    },
+
+    "compareIgniteModal": {
+      "next": "prochain >",
+      "prev": "< précédent",
+      "viewNext": "Voir la prochaine caractéristique >",
+      "viewPrev": "< Voir la caractéristique précédente",
+      "nextAriaLabel": "See next feature",
+      "prevAriaLabel": "See previous feature",
+      "closeAlt": "Fermer ce fenetre",
+      "content" : [
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-1.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-bundle.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-3.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-1.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-2.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-3.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-bundle.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-1.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-column-3.png",
+          "imageAlt": ""
+        },
+        {
+          "title": "Need FR Text ...",
+          "description": "Need FR Text ...",
+          "image": "/assets/images/ignite-bundle.png",
+          "imageAlt": ""
+        }
+      ]
+    },
+
+    "featureList": {
+      "title": "En savoir plus sur les fonctions révolutionnaires de la Télé Élan",
+      "listTitle": "Sélectionnez une fonction",
+      "features": [ "Tous vos favoris au même endroit", "Contrôlez votre télé grâce à votre voix", "Apportez vos films et émissions avec vous", "Votre centre de sports personnalisé", "Une salle de jeu pour les enfants sur votre téléviseur"],
+      "videos": [
+        {
+          "title": "Tous vos favoris au même endroit",
+          "description": "Grâce à la fonction Recherche tout-en-un de la Télé Élan, trouver le contenu que vous voulez regarder n’a jamais été aussi simple. Par exemple, cherchez « Tim Burton » et vous verrez s'afficher les options d’émissions et de films liées au réalisateur et issues de la télé en direct, de Netflix et plus encore.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        },
+        {
+          "title": "Contrôlez votre télé grâce à votre voix",
+          "description": "La Télécommande vocale vous permet d’explorer votre contenu au moyen de commandes vocales, ce qui signifie moins de recherche et plus de visionnement. Vous pouvez également utiliser des commandes vocales pour changer de chaîne, enregistrer des émissions, les faire rejouer, écouter des chansons et plus encore. Les possibilités sont infinies.",
+          "videoLink": "https://www.youtube.com/embed/-OVjr5kFrcw"
+        },
+        {
+          "title": "Apportez vos films et émissions avec vous",
+          "description": "Qui a dit que vous deviez regarder la télé sur votre télé? Grâce à Téléchargez et partez, vous pouvez télécharger vos enregistrements ou vos achats sur votre appareil mobile, ce qui vous permet d’apporter votre divertissement où que vous soyez, même hors ligne.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+        },
+        {
+          "title": "Votre centre de sports personnalisé",
+          "description": "L’appli sports vous donne un accès privilégié à vos matchs préférés sans que vous quittiez votre canapé. Créez vos ligues et vos équipes préférées, faites le suivi des résultats et des statistiques, regardez les faits saillants des matchs et bien plus encore. \nAppuyez pour regarder la vidéo sur l’appli sports.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+        },
+        {
+          "title": "Une salle de jeu pour les enfants sur votre téléviseur",
+          "description": "La Zone enfants est un lieu sûr où les tout-petits peuvent découvrir et regarder du contenu adapté à leur âge. Et grâce aux contrôles parentaux entièrement personnalisables, la Zone enfants signifie du plaisir pour les enfants et une plus grande tranquillité d’esprit pour les parents.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw-11"
+        }
+      ],
+      "analytics": ["ignite - all your favourites in one place", "ignite - control your TV with your voice", "ignite - take your movies and shows to go", "ignite - your personalized sports hub", "ignite - a playroom on your TV for the kids"]
+    },
+
+    "voiceRemote": {
+      "title": "Commandes vocales à essayer",
+      "subtitle": "Grâce à la Télécommande vocale, votre télé est littéralement à vos ordres. Formulez certaines de ces commandes à haute voix pour profiter de l’expérience de divertissement la plus simple!",
+      "videoTitle": "Découvrez la Télécommande vocale.",
+      "videoSubtitle": "Dites-le et regardez-le. Regardez ce tutoriel pour en savoir plus sur la Télécommande vocale et l’utilisation des commandes vocales pour contrôler votre téléviseur.",
+      "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY",
+      "commandList": ["« Quoi regarder? »", "« Comédies romantiques. »", "« Montre-moi Game of Thrones. »", "« Regarder Citytv. »","« Émissions comme Modern Family. »", "« Vidéos de chat sur YouTube. »"]
+    },
+
+    "videos3Columns": {
+      "title": "Voir la Télé Élan en action",
+      "videos": [
+        {
+          "title": "Rechercher par acteur",
+          "description": "Apprenez comment faire une recherche par nom d’acteur ou de réalisateur sur la Télé Élan.",
+          "videoLink": "https://www.youtube.com/embed/-OVjr5kFrcw"
+        },
+        {
+          "title": "Utiliser la Recherche tout-en-un",
+          "description": "Voyez comment utiliser la fonction Recherche tout-en-un pour trouver du contenu sur la Télé Élan en quelques secondes seulement.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+        },
+        {
+          "title": "Téléchargez et partez",
+          "description": "Téléchargez vos émissions sur votre appareil mobile pour pouvoir les regarder où que vous soyez, même sans connexion Internet.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        }
+      ]
+    },
+
+    "igniteBundle": {
+      "title": "Offres groupées à partir de 124,99 $/mois. (Cela comprend Internet et la Téléphonie résidentielle optionnelle!).",
+      "desc": "De plus, pour une durée limitée, obtenez une carte prépayée Mastercard de Rogers de 150 $ quand vous passez à la Télé Élan.",
+      "image": "/assets/images/img-ecosystem.png",
+      "imageAlt": "",
+      "cta": "Voir les offres groupées",
+      "ctaAriaLabel": "Consulter les offres groupées Élan de Rogers",
+      "ctaLink": "/consumer/ignite-bundles/tv-internet"
+    }
+
+  }
+}
+
+
+

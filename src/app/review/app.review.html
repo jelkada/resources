@@ -1,0 +1,27 @@
+
+
+<div class="container container-padding position-relative" *ngIf="review.title">
+
+  <div id="review" class="anchor-pos"></div>
+
+  <div class="row no-pad pb-10">
+    <div class="col-xs-12">
+      <h2 class="m-0 pb-10 ng" [innerHTML]="review.title"></h2>
+      <a class="note" href="javascript:void(0)" (click)="hideNote=!hideNote" [innerHTML]="review.note"></a>
+      <p class="note-desc" [class.hidden]="hideNote" [innerHTML]="review.description"></p>
+    </div>
+  </div>
+
+  <div class="row no-pad flex-container-md">
+    <div class="col-xs-12 col-md-4 card-container" *ngFor="let item of review.content">
+      <div class="card-margin">
+        <img class="img-responsive" [alt]="item['imageAlt']" [src]="item['image']" />
+        <h3 class="m-0 ng title-padding" [innerHTML]="item['title']"></h3>
+        <p class="desc-padding txt-regular" [innerHTML]="item['description']"></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

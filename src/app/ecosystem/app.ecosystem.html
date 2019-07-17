@@ -1,0 +1,27 @@
+
+
+
+<div class="container container-margin bg-white-md position-relative" *ngIf="ecosystem.image">
+  <div id="ecosystem" class="anchor-pos"></div>
+
+  <div class="row no-pad flex-container-md bg-white">
+
+    <div class="col-xs-12 col-md-4">
+      <img class="img-responsive" [alt]="ecosystem.imageAlt" [src]="ecosystem.image" />
+    </div>
+
+    <div class="col-xs-12 col-md-8">
+      <div class="txt-section">
+        <h3 class="ng pb-20" [innerHTML]="ecosystem.title"></h3>
+        <p class="txt-desc" [innerHTML]="ecosystem.desc"></p>
+        <a class="btn-red" role="button" target="_blank"
+           [href]="ecosystem.ctaLink" [attr.aria-label]="ecosystem.ctaAriaLabel"
+           (click)="trackClick()" aria-selected="true">
+          {{ ecosystem.cta }}</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+

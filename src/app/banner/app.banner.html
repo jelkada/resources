@@ -1,0 +1,29 @@
+<div class="bg-white hero-banner" *ngIf="banner.title">
+
+  <div class="container">
+    <div class="row no-pad flex-container-md">
+
+      <div class="col-xs-12 col-md-6">
+        <div class="hero-text">
+          <h1 class="m-0 pb-20 ng" [innerHTML]="banner.title"></h1>
+          <h4 class="m-0 pb-15 ng" [innerHTML]="banner.subtitle"></h4>
+
+          <ul class="ul-feature banner-features">
+            <li class="li-feature" *ngFor="let feature of banner.features">
+              {{ feature }}
+            </li>
+          </ul>
+          <!-- <p class="pb-10 txt-regular visible-md visible-lg" [innerHTML]="banner.description"></p> -->
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div class="videoWrapper">
+          <iframe [src]="banner.videoLink | safe"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

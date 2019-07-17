@@ -1,0 +1,58 @@
+
+
+
+<div class="container container-padding position-relative">
+  <div id="compare" class="anchor-pos"></div>
+
+  <app-compare-ignite-modal (closeModalEvent)="closeModal()" [hidden]="hideModal">
+  </app-compare-ignite-modal>
+
+  <div class="row no-pad" *ngIf="compareIgnite.title">
+    <div class="col-xs-12">
+      <h2 class="ng" [innerHTML]="compareIgnite.title"></h2>
+      <p class="ng subtitle-padding" [innerHTML]="compareIgnite.subtitle"></p>
+    </div>
+  </div>
+
+  <div class="row no-pad  bg-white" *ngIf="compareIgnite.title">
+    <div class="col-xs-12 table-shadow">
+
+      <table class="compare-table">
+        <tr>
+          <th *ngFor="let item of compareIgnite.columns; index as i"
+              class="table-heading table-heading-red" [ngClass]="{'table-heading-gray': i==0}"  [innerHTML]="item"></th>
+        </tr>
+        <tr *ngFor="let title of compareIgnite.rows; index as i">
+          <td class="table-cell"
+              [innerHTML]="title"
+              [title]="title" aria-selected="true">
+          </td>
+<!--          <td class="table-cell table-btn"-->
+<!--              (click)="showModal($event, i)"-->
+<!--              [title]="title" role="button" aria-selected="true">-->
+<!--            <a href="#" [innerHTML]="title"-->
+<!--               [attr.aria-label]="title" role="button" aria-selected="true">-->
+<!--            </a>-->
+<!--          </td>-->
+          <td class="table-cell" *ngFor="let number of [0,1,2]" >
+            <span *ngIf="compareIgnite.checkmarks[number][i] === '1'"
+                  class="txt-check" [title]="compareIgnite.yes">&#10003;</span>
+            <span *ngIf="compareIgnite.checkmarks[number][i] === '0'"
+                  class="txt-check" [title]="compareIgnite.no">&nbsp;</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row no-pad" *ngIf="compareIgnite.title">
+    <div class="col-xs-12">
+      <p class="txt-footnote">
+        <span class="red-footnote" [innerHTML]="compareIgnite.footnoteTitle"></span>
+        <span [innerHTML]="compareIgnite.footnote"></span>
+      </p>
+    </div>
+  </div>
+
+</div>
+

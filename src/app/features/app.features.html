@@ -1,0 +1,62 @@
+
+
+<div class="container pad-vertical position-relative" *ngIf="featureList.title">
+  <div id="features" class="anchor-pos"></div>
+
+  <div class="row no-pad">
+    <h2 class="ng pb-30" [innerHTML]="featureList.title"></h2>
+  </div>
+
+  <div class="row no-pad flex-container-md visible-md visible-lg">
+    <div class="col-xs-12 col-md-5">
+      <!-- <p class="m-0 txt-list-title" [innerHTML]="featureList.listTitle"></p> -->
+      <ul class="ul-feature">
+        <li class="li-feature"
+            *ngFor="let feature of featureList.features; index as i"
+            (click)="onFeatureClick($event, i)"
+            [ngClass]="{'active li-feature-disabled':i===currentFeature, 'li-feature-fr':langFr}">
+          <div class="li-arrow"><i class="right"></i></div>
+          <a href="#" [innerHTML]="feature" [attr.aria-label]="feature" role="button" aria-selected="true"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-md-7 col-pad-video">
+      <h4 class="ng pb-20" [innerHTML]="featureList.videos[currentFeature]['title']"></h4>
+      <p class="m-0 txt-regular pb-20 pr-20" [innerHTML]="featureList.videos[currentFeature]['description']"></p>
+      <div class="videoWrapper">
+        <iframe [src]="featureList.videos[currentFeature]['videoLink'] | safe"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="row no-pad visible-xs visible-sm">
+    <div class="col-xs-12">
+      <!-- <h2 class="m-0 txt-list-title" [innerHTML]="featureList.listTitle"></h2> -->
+      <ul class="ul-feature">
+        <li class="li-feature"
+            *ngFor="let feature of featureList.features; index as i"
+            (click)="onFeatureClick($event, i)"
+            [ngClass]="{'active':i===currentFeature && featuredClicked, 'li-feature-fr':langFr}">
+          <div class="li-arrow" [ngClass]="{'hide':i===currentFeature && featuredClicked }">
+            <i class="down"></i>
+          </div>
+          <div class="li-arrow" [ngClass]="{'hide':i!==currentFeature || !featuredClicked}">
+            <i class="up"></i>
+          </div>
+          <a href="#" class=" li-feature-sm" [attr.aria-label]="feature" role="button" aria-selected="true">
+            <div class="li-feature-sm-content" [innerHTML]="feature"></div>
+          </a>
+          <div class="li-bg-content" [ngClass]="{'hide':i!==currentFeature || !featuredClicked}">
+            <p class="m-0 txt-regular p-20" [innerHTML]="featureList.videos[currentFeature]['description']"></p>
+            <div class="videoWrapper">
+              <iframe [src]="featureList.videos[currentFeature]['videoLink'] | safe"></iframe>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+

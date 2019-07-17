@@ -1,0 +1,82 @@
+
+
+.modal-pos {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*margin-top: 250px;*/
+  z-index: 99;
+  background-color: white;
+  box-shadow: 0px 0px 8px #EEEEEE;
+  width: 100%;
+  min-height: 520px;
+}
+
+.pad-content {
+  padding: 0 0 40px 0 !important;
+}
+
+.btn-close {
+  display: block;
+  font-family: "TedNextSemibold";
+  font-size: 18px;
+  line-height: 24px;
+  color: #414060;
+  padding: 10px 0;
+}
+
+.modal-title {
+  font-family: "TedNextSemibold";
+  font-size: 28px;
+  line-height: 36px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.modal-nav {
+  display: inline-block;
+  padding: 0px 20px;
+  width: 50%;
+}
+
+.modal-nav-pos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+}
+
+.modal-nav > a {
+  font-family: "TedNextSemibold";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.modal-img {
+  width: 100%;
+  display: block;
+  max-width: 420px;
+  margin: auto;
+  padding: 5px 20px 25px 20px;
+}
+
+
+@media (min-width: 768px) {
+  .pad-content {
+    padding: 0 20px 40px 40px !important;
+  }
+  .modal-pos {
+    width: 768px;
+    min-height: 550px;
+  }
+  .btn-close {
+    padding: 10px 20px;
+  }
+  .modal-img {
+    width: auto;
+    max-height: 300px;
+    max-width: none;
+  }
+}
+

@@ -1,0 +1,217 @@
+{
+  "global": {
+
+    "banner": {
+      "title": "React <span class='title-vs'>vs</span> Angular <span class='title-vs'>vs</span> Vue",
+      "subtitle": "Key features for comparison:",
+      "features": ["Features, modules and tools", "Scalability, modularity and performance", "Popularity and usage by large companies", "Community support and online help", "Jobs availability and demand", "Steep learning curve"],
+      "description": "All-in-one search. A slick Voice Remote. Customized content powered by our fastest internet, meaning you can watch TV online. Built-in apps like Netflix and YouTube. Check out this video to get to know Ignite TV and how it works. ",
+      "videoLink": "https://www.youtube.com/embed/SWZ_4YBFBhs"
+    },
+
+    "review": {
+      "title": "JavaScript platforms - build and deploy web applications",
+      "note": "Framework vs Library: Inversion Control",
+      "description": "Note: React JS and Vue JS a library where as Angular is a framework. The main difference between a framework and library can be described using the term <strong>inversion of control</strong>. When using library, developers are in charge of the flow of the application and they choose when and where to call the library. When using a framework, the framework is in charge of the flow. It provides some places for the developers to plug in their code (such as lifecycle hooks in Angular). The framework calls the code that the developer plugs in as needed. Frameworks are usually more complex and provide comprehensive solution tools. In simple terms, library is like a tool whereas a framework is like a toolbox.",
+      "content": [
+        {
+          "title": "React",
+          "description": "React is a JavaScript library for building UI components for web applications developed and used by Facebook. It is used by many other leading tech brands such as Uber, Netflix, Twitter, Udemy, Paypal, Reddit, etc. React Native is another popular project from Facebook which is used to build native mobile apps using JavaScript and React.",
+          "image": "/assets/images/img-react.png",
+          "imageAlt": "Watching across multiple devices"
+        },
+        {
+          "title": "Angular",
+          "description": "Angular is a TypeScript-based JavaScript framework backed by Google. It is an enormously popular framework for front-end development. Angular was launched as Angular 2 or Angular, which constituted a ground-up rewrite of AngularJS. Angular development is widely popular among developers and used by big organizations such as Google, Forbes, WhatsApp, Instagram, healthcare.gov, etc.",
+          "image": "/assets/images/img-angular.png",
+          "imageAlt": "Flexibility and control of your TV."
+        },
+        {
+          "title": "Vue",
+          "description": "Vue.js is one of the most-discussed and rapidly growing JavaScript frameworks. It was created by former Google employee Evan You, who worked on Angular when he was a Google employee. It is considered as success because of its ability to build attractive UIs using HTML, CSS, and JavaScript. Vue is used by Alibaba, GitLab, Baidu, and appreciated by developers and designers globally.",
+          "image": "/assets/images/img-vue.png",
+          "imageAlt": "Multiple content sources."
+        }
+      ]
+    },
+
+    "compare": {
+      "title": "How does it compare?",
+      "subtitle": "See how Ignite TV compares to our standard Digital TV packages.",
+      "columns": ["Aspect", "React", "Angular", "Vue"],
+      "rows": ["Features and tools", "Setup and integration", "Modularity and scalability", "Performance and speed", "Used by large companies", "Community support", "Dev popularity", "Fast learning curve", "Jobs market demands", "Support for navite apps", "Two-way data binding"],
+      "redRow": "0000000000",
+      "checkmarks": [ "01011111110", "10111110111", "01010001011" ],
+      "footnoteTitle": "Note: ",
+      "footnote": "checkmark denotes that the JS platform implements this feature better.",
+      "yes": "yes",
+      "no": "no",
+      "analytics": ["modal - included ignite Internet Service", "modal - all in one search", "modal - voice remote", "modal - customizable channel lineup", "modal - ignite tv app and download and go", "modal-sports app", "modal - kids zone", "modal - 4k cloud pvr", "modal - restart", "modal - wireless ignite tv box"]
+    },
+
+
+    "compareModal": {
+      "next": "next >",
+      "prev": "< previous",
+      "viewNext": "See next feature >",
+      "viewPrev": "< See previous feature",
+      "nextAriaLabel": "See next feature",
+      "prevAriaLabel": "See previous feature",
+      "closeAlt": "Close this window",
+      "content" : [
+          {
+            "title": "All-in-One Search",
+            "description": "Easily find all of your entertainment across live TV, On Demand, Netflix and more with one simple search.",
+            "image": "/assets/images/ignite-bundle.png",
+            "imageAlt": "Image of all-in-one search"
+          },
+          {
+            "title": "Netflix and YouTube Integration",
+            "description": "Ignite TV allows you to easily search and watch your favourites on Netflix and YouTube. Simply say what you’re looking for into the voice remote and start watching it in seconds, all without changing inputs or using other devices.",
+            "image": "https://www.rogers.com/cms/rogers/images/promotions/wireless-promotions/promo_refer-a-friend.png",
+            "imageAlt": "Image of Netflix and YouTube Integration"
+          },
+          {
+            "title": "Voice Remote with Voice Controls",
+            "description": "Use the power of your voice to quickly and effortlessly control your home entertainment experience  all in seconds.<span class='txt-center-modal'>Change Channels<br>Set and manage PVR Recordings<br>Find TV Shows &amp; Movies<br>Find Special Events<br>Search Live TV, Netflix, YouTube, and more<br>Get local weather<span>",
+            "image": "https://www.rogers.com/cms/rogers/images/en/Trade-up/promo-tradeup-2.png",
+            "imageAlt": "Image of Voice Remote with Voice Controls"
+          },
+          {
+            "title": "Flex Channels and Channel Exchange",
+            "description": "Customize your channel line-up so that it’s right for you. Choose the channels you watch and exchange them for the ones you don’t.",
+            "image": "https://www.rogers.com/cms/rogers/images/promotions/wireless-promotions/Apple-iPad-EN.png",
+            "imageAlt": "Image of Flex Channels and Channel Exchange"
+          },
+          {
+            "title": "Sports App",
+            "description": "Your own personalized sports hub where you can set your favourite teams and leagues. Plus view scores, stats, standings, and more – all in real time!",
+            "image": "/assets/images/ignite-column-1.png",
+            "imageAlt": "Image of Sports App"
+          },
+          {
+            "title": "KidsZone",
+            "description": "Puts kids and parents in command in a safe and fun digital space with age-appropriate content and parental controls.",
+            "image": "/assets/images/ignite-column-2.png",
+            "imageAlt": "Image of KidsZone"
+          },
+          {
+            "title": "Restart program",
+            "description": "Restart a live program while it's on, or immediately after it airs.",
+            "image": "/assets/images/ignite-column-3.png",
+            "imageAlt": "Image of Restart program"
+          },
+
+          {
+            "title": "Cloud PVR",
+            "description": "Watch your PVR recordings wherever you are. Watch at home on the big screen with your Ignite TV box or on the go with the Ignite TV app.",
+            "image": "/assets/images/ignite-column-1.png",
+            "imageAlt": "Image of Cloud PVR"
+          },
+          {
+            "title": "Stream at home & on the go",
+            "description": "Stream live TV, On Demand, and  your Cloud PVR recordings from your smartphone, tablet, and laptop. No Wifi? No Problem! You can even download your Cloud PVR recordings and watch them without WiFi with Download & Go.",
+            "image": "/assets/images/ignite-column-3.png",
+            "imageAlt": "Image of Stream at home & on the go"
+          },
+          {
+            "title": "Wireless Hardware",
+            "description": "The Ignite TV Box is small, sleek  and powerful with 4K picture quality. It works off of WiFi, so it can go anywhere in your home where there is a power outlet.",
+            "image": "/assets/images/ignite-bundle.png",
+            "imageAlt": "Image of Wireless Hardware"
+          }
+        ]
+    },
+
+    "features": {
+      "title": "JavaScript platforms - SPA concepts",
+      "listTitle": "Select a feature",
+      "features": [ "Virtual DOM", "Dependency Injection (DI)", "State management", "Front-end development trends", "GraphQL", "Progressive web apps"],
+      "videos": [
+        {
+          "title": "Virtual DOM",
+          "description": "Virtual DOM is an internal tree view representation of a web page. Virtual DOM provide a great performance boost by allowing updates of specific nodes instead of repainting the whole DOM. React and Vue use virtual DOM whereas Angular uses a similar idea of Incremental DOM (memory is allocated only when DOM nodes are added or removed).",
+          "videoLink": "https://www.youtube.com/embed/Iw2BLUjQo1E"
+        },
+        {
+          "title": "Dependency Injection (DI)",
+          "description": "Angular involves dependency injection, a concept where one object provides the dependencies to another object. This makes the code cleaner and easier to understand. On the other hand, there’s an MVC pattern which splits a project into three different components – model, view, and controller. React does not have any such concept and it used only to build the View of your application, whereas Angular is based on the MVC architecture.",
+          "videoLink": "https://www.youtube.com/embed/OFPIGlxunL0"
+        },
+        {
+          "title": "State management",
+          "description": "State management refers managing the status of UI components where one UI component and its data depends on the state of other UI component. For example, a state managed UI control such as a button will be in the enabled state when input fields have valid input values. Application state is stored in a single object which is immutable and can only be replaced outright through actions that describe state changes. All of the above frameworks use state management libraries: Redux (React.Js), NgRx (Angular) and Vuex (Vue.Js).",
+          "videoLink": "https://www.youtube.com/embed/LW9yIR4GoVU"
+        },
+        {
+          "title": "Front-end development trends",
+          "description": "",
+          "videoLink": "https://www.youtube.com/embed/VLm3Y7Odb74"
+        },
+        {
+          "title": "GraphQL API",
+          "description": "GraphQL is a newer way of building and querying APIs and it constitute an alternative to REST API. GraphQL offer more flexibility since it allows to retrieve only part of the data and it avoids adding end-points to the back-end which is needed with REST API. GraphQL decouples the front-end and back-end by exposing the front-end a query language that allows the UI to get data in any kind of format without a need to constantly modify the back-end API.",
+          "videoLink": "https://www.youtube.com/embed/7giZGFDGnkc"
+        },
+        {
+          "title": "Progressive web apps",
+          "description": "Progressive web apps (PWA) - an application that is built and lives on the web but looks like and functions similar to a native app (fast, responsive, offline capabilities, add to home screen, smooth page transitions, lazy loading). See these Google's guidelines for delivering a PWA <a target='_blank' href='https://developers.google.com/web/progressive-web-apps/checklist'>Progressive Web App Checklist</a>.",
+          "videoLink": "https://www.youtube.com/embed/VmKePMB0C8Q"
+        }
+      ],
+      "analytics": ["ignite - all your favourites in one place", "ignite - control your TV with your voice", "ignite - take your movies and shows to go", "ignite - your personalized sports hub", "ignite - a playroom on your TV for the kids"]
+    },
+
+    "courses": {
+      "title": "JSX, TypeScript and VueJs - crash course",
+      "videos": [
+        {
+          "title": "React JSX",
+          "description": "JSX (JavaScript eXtension) is a React extension that allows to write JavaScript code that looks HTML/XML structures (DOM tree structures) . JSX outputs a tree of React elements or a virtual representation of the HTML elements and then determine what changes to make to the actual DOM based on this React element representation. Some view JSX as a bad habit to include JavaScript, markup and css in the same place.",
+          "videoLink": "https://www.youtube.com/embed/yc8fg7gWbBA"
+        },
+        {
+          "title": "Angular TypeScript",
+          "description": "TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and it is designed for development of large applications. TypeScript transcompiles to clean, simple JavaScript code which runs on any browser, in Node.js, or in any JavaScript engine that supports ECMAScript 3 or later. TypeScript enable JavaScript developers to use highly-productive development tools and practices like object-oriented programming, type-checking and code refactoring when developing applications.",
+          "videoLink": "https://www.youtube.com/embed/rAy_3SIqT-E"
+        },
+        {
+          "title": "Vue.JS",
+          "description": "Vue has a short learning curve and it's lightweight and fast. It is based on plain JavaScript, thus Vue framework isn’t opinionated, and developers can design the app structure the way they want it to be. Vue has a native support for TypeScript as well. Vue syntax uses native HTML and CSS and the syntax looks like a hybrid of the best of Angular and React. Each UI component file has 3 main tags <template>, <script> and <style> for the HTML, JS and CSS respectively.",
+          "videoLink": "https://www.youtube.com/embed/Wy9q22isx3U"
+        }
+      ]
+    },
+
+    "ecosystem": {
+      "title": "The JavaScript ecosystem",
+      "desc": "The JavaScript ecosystem is a collection of software packages, frameworks, libraries and tools that facilitate development as they integrate with each other. The various aspects of the JavaScript ecosystem include: front-end development, command line interface (CLI), desktop applications, mobile applications and back-end systems.",
+      "image": "/assets/images/img-ecosystem.png",
+      "imageAlt": "JavaScript ecosystem",
+      "cta": "More about JS Ecosystems",
+      "ctaAriaLabel": "View more about JavaScript Ecosystems",
+      "ctaLink": "https://medium.com/@bojzi/overview-of-the-javascript-ecosystem-8ec4a0b7a7be"
+    },
+
+    "conclusion": {
+      "title": "Conclusion",
+      "subtitle": "Angular and React lead the way in global use and job market demands while Vue is growing rapidly. All platforms have a similar performance and each one has its own pros and cons, hence the best choice would depend on the project requirements.",
+      "videoTitle": "Meet the Voice Remote",
+      "videoSubtitle": "Say it and play it. Check out this tutorial to learn more about the Voice Remote and using voice commands to control your TV.",
+      "videoLink": "https://www.youtube.com/embed/9aVJOg2EB9I",
+      "commandList": ["Angular and React are older framework and more popular than Vue, with a larger community support",
+                      "Angular is comprehensive framework and would be more appropriate for enterprise level large applications",
+                      "React is lightweight, easy to set up and suitable for start-up companies as well as larger projects",
+                      "Angular offers more features and capabilities out-of-the-box and is a more structured platform",
+                      "React and Vue are libraries with a limited functionality but supported by external modules for larger applications",
+                      "React and Vue are easier to learn and to set up compared to Angular (since Angular is a framework)",
+                      "Angular and Vue use native HTML/CSS code which is considered a better practice compared to React's JSX",
+                      "React has a better ecosystem providing extensive cross platform solutions",
+                      "Angular is a complete framework with more features and a full-fledged MVC capabilities, whereas React and Vue are JavaScript libraries mainly for views.",
+                      "All platforms have a comparable performance and use higher lever structures to interact with the DOM (Virtual DOM and Incremental DOM)"
+      ]
+    }
+
+  }
+}
+

@@ -1,0 +1,200 @@
+{
+  "global": {
+
+    "topHeroBanner": {
+      "title": "Get to know <span class='no-wrap'>Ignite TV.</span>",
+      "subtitle": "Curious about Ignite TV<sub>TM</sub>, our IPTV service? Here’s everything you need to know.",
+      "description": "All-in-one search. A slick Voice Remote. Customized content powered by our fastest internet, meaning you can watch TV online. Built-in apps like Netflix and YouTube. Check out this video to get to know Ignite TV and how it works. ",
+      "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+    },
+
+    "iptv3Columns": {
+      "title": "IPTV (Internet Protocol TV) is delivered completely through the internet, instead of via traditional digital or satellite networks. Which means:",
+      "content": [
+        {
+          "title": "Seamless watching across multiple devices – even on the go.",
+          "description": "Start a movie on your TV and finish it on your tablet. Watch live TV on the go. Use Cloud PVR and Download & Go to access your recordings from anywhere.",
+          "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-1.png",
+          "imageAlt": "Watching across multiple devices"
+        },
+        {
+          "title": "Ultimate flexibility and control of your TV.",
+          "description": "Fast-forward, rewind and restart live shows. Customize your channel line-up whenever you want.",
+          "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-2.png",
+          "imageAlt": "Flexibility and control of your TV."
+        },
+        {
+          "title": "Multiple content sources at your fingertips, from live TV to Netflix.",
+          "description": "Search for a movie, genre or actor and browse results from across live TV, Netflix, On Demand, your recordings and more.",
+          "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-3.png",
+          "imageAlt": "Multiple content sources."
+        }
+      ]
+    },
+
+    "compareIgnite": {
+      "title": "How does it compare?",
+      "subtitle": "See how Ignite TV compares to our standard Digital TV packages.",
+      "columns": ["Features", "Ignite TV", "Digital TV", "The other guys"],
+      "rows": ["All-in-one search", "Netflix and YouTube Integration", "Voice Remote with Voice Controls", "Flex Channels and Channel Exchange", "Sports App", "KidsZone", "Restart program", "Cloud PVR", "Stream at home & on the go", "Wireless Hardware"],
+      "redRow": "1100000000",
+      "checkmarks": [ "1111111111", "0000000010", "0000001111" ],
+      "footnoteTitle": "Ignite exclusive: ",
+      "footnote": "these services are not avaialble from any other provider",
+      "yes": "yes",
+      "no": "no",
+      "analytics": ["modal - included ignite Internet Service", "modal - all in one search", "modal - voice remote", "modal - customizable channel lineup", "modal - ignite tv app and download and go", "modal-sports app", "modal - kids zone", "modal - 4k cloud pvr", "modal - restart", "modal - wireless ignite tv box"]
+    },
+
+
+    "compareIgniteModal": {
+      "next": "next >",
+      "prev": "< previous",
+      "viewNext": "See next feature >",
+      "viewPrev": "< See previous feature",
+      "nextAriaLabel": "See next feature",
+      "prevAriaLabel": "See previous feature",
+      "closeAlt": "Close this window",
+      "content" : [
+          {
+            "title": "All-in-One Search",
+            "description": "Easily find all of your entertainment across live TV, On Demand, Netflix and more with one simple search.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-bundle.png",
+            "imageAlt": "Image of all-in-one search"
+          },
+          {
+            "title": "Netflix and YouTube Integration",
+            "description": "Ignite TV allows you to easily search and watch your favourites on Netflix and YouTube. Simply say what you’re looking for into the voice remote and start watching it in seconds, all without changing inputs or using other devices.",
+            "image": "https://www.rogers.com/cms/rogers/images/promotions/wireless-promotions/promo_refer-a-friend.png",
+            "imageAlt": "Image of Netflix and YouTube Integration"
+          },
+          {
+            "title": "Voice Remote with Voice Controls",
+            "description": "Use the power of your voice to quickly and effortlessly control your home entertainment experience  all in seconds.<span class='txt-center-modal'>Change Channels<br>Set and manage PVR Recordings<br>Find TV Shows &amp; Movies<br>Find Special Events<br>Search Live TV, Netflix, YouTube, and more<br>Get local weather<span>",
+            "image": "https://www.rogers.com/cms/rogers/images/en/Trade-up/promo-tradeup-2.png",
+            "imageAlt": "Image of Voice Remote with Voice Controls"
+          },
+          {
+            "title": "Flex Channels and Channel Exchange",
+            "description": "Customize your channel line-up so that it’s right for you. Choose the channels you watch and exchange them for the ones you don’t.",
+            "image": "https://www.rogers.com/cms/rogers/images/promotions/wireless-promotions/Apple-iPad-EN.png",
+            "imageAlt": "Image of Flex Channels and Channel Exchange"
+          },
+          {
+            "title": "Sports App",
+            "description": "Your own personalized sports hub where you can set your favourite teams and leagues. Plus view scores, stats, standings, and more – all in real time!",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-1.png",
+            "imageAlt": "Image of Sports App"
+          },
+          {
+            "title": "KidsZone",
+            "description": "Puts kids and parents in command in a safe and fun digital space with age-appropriate content and parental controls.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-2.png",
+            "imageAlt": "Image of KidsZone"
+          },
+          {
+            "title": "Restart program",
+            "description": "Restart a live program while it's on, or immediately after it airs.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-3.png",
+            "imageAlt": "Image of Restart program"
+          },
+
+          {
+            "title": "Cloud PVR",
+            "description": "Watch your PVR recordings wherever you are. Watch at home on the big screen with your Ignite TV box or on the go with the Ignite TV app.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-1.png",
+            "imageAlt": "Image of Cloud PVR"
+          },
+          {
+            "title": "Stream at home & on the go",
+            "description": "Stream live TV, On Demand, and  your Cloud PVR recordings from your smartphone, tablet, and laptop. No Wifi? No Problem! You can even download your Cloud PVR recordings and watch them without WiFi with Download & Go.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-column-3.png",
+            "imageAlt": "Image of Stream at home & on the go"
+          },
+          {
+            "title": "Wireless Hardware",
+            "description": "The Ignite TV Box is small, sleek  and powerful with 4K picture quality. It works off of WiFi, so it can go anywhere in your home where there is a power outlet.",
+            "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-bundle.png",
+            "imageAlt": "Image of Wireless Hardware"
+          }
+        ]
+    },
+
+    "featureList": {
+      "title": "Learn more about Ignite TV’s game-changing features",
+      "listTitle": "Select a feature",
+      "features": [ "All your favourites in one place", "Control your TV with your voice", "Take your movies and shows to go", "Your personalized sports hub", "A playroom on your TV for the kids"],
+      "videos": [
+        {
+          "title": "All your favourites in one place.",
+          "description": "With Ignite TV’s All-in-one Search, it’s never been easier to find the content you want to watch. For example, search for \"Tim Burton\", and show and movie options related to the director will display from across live TV, Netflix and more.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        },
+        {
+          "title": "Control your TV with your voice.",
+          "description": "The Voice Remote lets you explore your content using voice commands, which means less searching, more watching. You can also use voice commands to change channels, set recordings, rewind, play songs and more – the possibilities are endless.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        },
+        {
+          "title": "Take your movies and shows to go.",
+          "description": "Who says you need to watch TV on your TV? With Download & Go, you can download your recordings or purchases to your mobile device – so you can take your entertainment wherever you go, even offline.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+        },
+        {
+          "title": "Your personalized sports hub.",
+          "description": "SportsApp takes you to the front row of your favourite games without leaving your couch. Set your favourite leagues and teams, keep track of live scores and stats, watch game highlights and lots more.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        },
+        {
+          "title": "A playroom on your TV for the kids.",
+          "description": "KidsZone is a safe space for the little ones to discover and watch age-appropriate content. And with fully customizable parental controls, KidsZone means more fun for kids and far less worry for parents.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw-11"
+        }
+      ],
+      "analytics": ["ignite - all your favourites in one place", "ignite - control your TV with your voice", "ignite - take your movies and shows to go", "ignite - your personalized sports hub", "ignite - a playroom on your TV for the kids"]
+    },
+
+
+    "voiceRemote": {
+      "title": "Voice commands to try",
+      "subtitle": "With the Voice Remote, your TV is literally at your command. Try some of these controls with your voice for the easiest entertainment experience!",
+      "videoTitle": "Meet the Voice Remote",
+      "videoSubtitle": "Say it and play it. Check out this tutorial to learn more about the Voice Remote and using voice commands to control your TV.",
+      "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY",
+      "commandList": ["\"What should I watch?\"", "\"Romantic comedies.\"", "\"Show me Game of Thrones.\"", "\"Watch Citytv.\"","\"Shows like Modern Family.\"", "\"Cat videos on YouTube.\""]
+    },
+
+    "videos3Columns": {
+      "title": "See Ignite TV in action",
+      "videos": [
+        {
+          "title": "Search by actor",
+          "description": "Learn how to search by actor or director name on Ignite TV.",
+          "videoLink": "https://www.youtube.com/embed/Vg4_gyCp0zY"
+        },
+        {
+          "title": "Use All-in-One Search",
+          "description": "Check out how to use All-in-one Search to find content from across Ignite TV in just seconds.",
+          "videoLink": "https://www.youtube.com/embed/-OVjr5kFrcw"
+        },
+        {
+          "title": "Download & Go",
+          "description": "Download your shows to your mobile device so you can watch on the go – even without an internet connection.",
+          "videoLink": "https://www.youtube.com/embed/JNp0HFH6wmw"
+        }
+      ]
+    },
+
+    "igniteBundle": {
+      "title": "Bundles start at just $124.99/mo. (That includes Internet and optional Home Phone!)",
+      "desc": "And for a limited time, you’ll get a $150 Rogers Mastercard Prepaid card when you upgrade to Ignite TV.",
+      "image": "/cms/rogers/page-specific/tv/iptv/images/ignite-bundle.png",
+      "imageAlt": "Image of Ignite TV",
+      "cta": "View bundles",
+      "ctaAriaLabel": "View Rogers Ignite bundles",
+      "ctaLink": "/consumer/ignite-bundles/tv-internet"
+    }
+
+  }
+}
+

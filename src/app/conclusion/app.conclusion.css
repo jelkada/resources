@@ -1,0 +1,55 @@
+
+.txt-list {
+  font-family: "TedNextRegular";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.content-full {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  /*margin-top: 60px;*/
+  background: #ffffff;
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  position: relative;
+}
+
+
+.col-pad  {
+  padding-top: 30px !important;
+}
+
+@media (min-width: 768px) {
+  .content-full {
+    /*margin-top: 60px;*/
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-container-md {
+    display: -webkit-flex;
+    display: flex;
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+    height: 100%;
+  }
+  .col-pad {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .txt-title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .txt-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+

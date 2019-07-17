@@ -1,0 +1,46 @@
+
+
+.heading-padding {
+  padding: 40px 0 20px 0;
+}
+
+.title-padding {
+  padding: 8px 25px 0 0;
+}
+
+.desc-padding {
+  padding: 0 25px 20px 0;
+}
+
+.img-responsive {
+  max-height: 200px;
+  width: auto;
+  margin: auto;
+}
+
+
+@media (min-width: 992px) {
+  .flex-container-md {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .heading-padding {
+    padding: 60px 0px 30px 0;
+  }
+  .title-padding {
+    padding: 20px 25px 10px 0;
+  }
+  .desc-padding {
+    padding: 0 25px 0 0;
+  }
+  .col-pad-video {
+    padding-right: 30px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-pad-video {
+    padding-right: 30px !important;
+  }
+}
+

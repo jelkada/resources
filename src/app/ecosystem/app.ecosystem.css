@@ -1,0 +1,78 @@
+
+.container-margin {
+  margin-top: 40px;
+}
+
+.txt-title {
+  font-family: "TedNextSemibold";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.txt-desc {
+  font-family: "TedNextRegular";
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.txt-section {
+  padding: 30px 25px 30px 25px;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+.btn-red {
+  display: inline-block;
+  background: white;
+  color: #da291c;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 1px solid #da291c;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: #da291c;
+  color: white;
+}
+
+
+@media (min-width: 768px) {
+  .container-margin {
+    margin-top: 60px;
+  }
+  .bg-white-md {
+    background-color: white;
+  }
+  .btn-red {
+    width: 240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-container-md {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+  }
+  .txt-section {
+    padding: 0 40px;
+  }
+}
+

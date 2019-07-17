@@ -1,0 +1,21 @@
+
+
+<div class="container position-relative" *ngIf="courses.title">
+  <div id="courses" class="anchor-pos"></div>
+
+  <div class="row no-pad">
+    <h2 class="ng heading-padding" [innerHTML]="courses.title"></h2>
+  </div>
+
+  <div class="row no-pad flex-container-md">
+    <div class="col-xs-12 col-md-4 col-pad-video"
+         *ngFor="let item of courses.videos">
+      <div class="videoWrapper">
+        <iframe [src]="item['videoLink'] | safe"></iframe>
+      </div>
+      <h4 class="ng title-padding" [innerHTML]="item['title']"></h4>
+      <p class="desc-padding txt-regular" [innerHTML]="item['description']"></p>
+    </div>
+  </div>
+
+</div>
